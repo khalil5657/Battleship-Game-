@@ -1,0 +1,72 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.playerBoardDiv{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.computerBoardDiv{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playerBoard{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 40px;
+}
+.computerBoard{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 40px;
+}
+.computerBoard div, .playerBoard div{
+    border: 1px solid gray;
+    
+}
+
+.computerBoard div:hover{
+    background-color: rgb(186, 181, 181);   
+    cursor: pointer;
+}
+
+.firstselected:hover{
+    background-color: aqua;
+}
+.firstselected:hover + div{
+    background-color: aqua;
+}
+.firstselected:hover + div + div{
+    background-color: aqua;
+}
+.firstselected:hover + div + div + div{
+    background-color: aqua;
+}
+
+.secondselected:hover{
+    background-color: aqua;
+}
+.secondselected:hover + div{
+    background-color: aqua;
+}
+.secondselected:hover + div + div{
+    background-color: aqua;
+    max
+}
+
+
+.thirdselected:hover{
+    background-color: aqua;
+}
+.thirdselected:hover + div{
+    background-color: aqua;
+}
