@@ -60,8 +60,9 @@
 }
 .secondselected:hover + div + div{
     background-color: aqua;
-    max
+
 }
+
 
 
 .thirdselected:hover{

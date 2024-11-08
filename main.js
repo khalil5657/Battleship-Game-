@@ -1,7 +1,7 @@
-import { Ship } from "./test.js";
-import { Computer } from "./test.js";
-import { Player } from "./test.js";
-import { GameBoard } from "./test.js";
+import { Ship } from "../test.js";
+import { Computer } from "../test.js";
+import { Player } from "../test.js";
+import { GameBoard } from "../test.js";
 
 const playerBoard = document.querySelector(".playerBoard");
 const computerBoard = document.querySelector(".computerBoard");
